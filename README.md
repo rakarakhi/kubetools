@@ -70,6 +70,7 @@ Kubernetes Job/CronJob Notifier - [This tool sends an alert to slack whenever th
 Argus - [This tool monitors changes in the filesystem on specified paths](https://clustergarage.io/argus/docs/overview)<br>
 
 ## Logging and Tracing
+
 Jaeger - [CNCF Jaeger, a Distributed Tracing Platform](https://github.com/jaegertracing/jaeger)<br>
 Kiali - [Kiali project, observability for the Istio service mesh](https://github.com/kiali/kiali) <br>
 ELK - [Elasticsearch, Logstash, Kibana](https://github.com/elastic)<br>
@@ -132,6 +133,7 @@ KubeVela - [KubeVela works as an application delivery control plane that is full
 ksonnet - [A CLI-supported framework that streamlines writing and deployment of Kubernetes configurations to multiple clusters](https://github.com/ksonnet/ksonnet)<br>
 CircleCI - [A cloud-based tool that helps build continuous integration and continuous delivery pipelines to Kubernetes.](https://github.com/circleci)<br>
 Shipwright - [A framework for building container images on Kubernetes](https://shipwright.io/)<br>
+
 ## Security Tools
 
 TerraScan - [Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.](https://github.com/accurics/terrascan) <br>
@@ -157,7 +159,7 @@ Anchore Cli - [Coomand Line Interface built on top of anchore engine to manage a
 Project Quay - [Container image registry designed to boost the security of your repositories via vulnerability scanning and tight access control](https://github.com/quay/quay)<br>
 Kubescape - [Tool to test if Kubernetes is deployed securely according to multiple frameworks: regulatory, customized company policies and DevSecOps best practices, such as the NSA-CISA and the MITRE ATT&CK®](https://github.com/armosec/kubescape)<br>
 
-## Network Policies
+## Networking & Networking Policies & CRI (Container Runtime Interface)
 
 trireme-kubernetes - [Aporeto integration with Kubernetes Network Policies](https://github.com/aporeto-inc/trireme-kubernetes)<br>
 Calico - [Cloud native connectivity and network policy ](https://github.com/projectcalico/calico)<br>
@@ -167,6 +169,29 @@ Submariner - [Connect all your Kubernetes clusters, no matter where they are in 
 egress-operator - [An operator to produce egress gateway pods and control access to them with network policies](https://github.com/monzo/egress-operator)<br>
 kubefwd (Kube Forward) - [Bulk port forwarding Kubernetes services for local development ](https://github.com/txn2/kubefwd)<br>
 Cilium - [Providing, securing and observing network connectivity between container workloads](https://cilium.io/)<br>
+
+Antrea - [Project Antrea is an opensource Kubernetes networking solution intended to be Kubernetes native](https://github.com/antrea-io/antrea) <br>
+AWS VPC CNI for Kubernetes - [AWS VPC CNI offers integrated AWS Virtual Private Cloud (VPC) networking for Kubernetes clusters](https://github.com/aws/amazon-vpc-cni-k8s) <br>
+Azure CNI - [Azure CNI is an open source plugin that integrates Kubernetes Pods with an Azure Virtual Network](https://docs.microsoft.com/en-us/azure/virtual-network/container-networking-overview) <br>
+CNI-Genie from Huawei - [CNI-Genie is a CNI plugin that enables Kubernetes to simultaneously have access to different implementations of the Kubernetes network model in runtime](https://github.com/cni-genie/CNI-Genie) <br>
+cni-ipvlan-vpc-k8s - [cni-ipvlan-vpc-k8s contains a set of CNI and IPAM plugins to provide a simple, host-local, low latency, high throughput, and compliant networking stack for Kubernetes within Amazon Virtual Private Cloud](https://github.com/lyft/cni-ipvlan-vpc-k8s) <br>
+Coil - [Coil is a CNI plugin designed for ease of integration, providing flexible egress networking](https://github.com/cybozu-go/coil) <br>
+Contiv-VPP - [Contiv-VPP is a user-space, performance-oriented network plugin for Kubernetes, using the fd.io data plane](https://github.com/contiv/vpp/) <br>
+Contrail / Tungsten Fabric - [Contrail, based on Tungsten Fabric, is a truly open, multi-cloud network virtualization and policy management platform](https://www.juniper.net/us/en/products/sdn-and-orchestration/contrail/contrail-networking.html) <br>
+DANM - [A CNI metaplugin capable of attaching multiple network interfaces to a container, either through its own CNI, or through delegating the job to any of the popular CNI solution like SRI-OV, or Flannel in parallel](https://github.com/nokia/danm) <br>
+Flannel - [Flannel is a very simple overlay network that satisfies the Kubernetes requirements](https://github.com/flannel-io/flannel#flannel) <br>
+Hybridnet - [Hybridnet is an open source CNI plugin designed for hybrid clouds which provides both overlay and underlay networking for containers in one or more clusters](https://github.com/alibaba/hybridnet) <br>
+Jaguar - [Jaguar is an open source solution for Kubernetes's network based on OpenDaylight](https://gitlab.com/sdnlab/jaguar) <br>
+Weave Net - [Weave Net is a resilient and simple to use network for Kubernetes and its hosted applications. Weave Net runs as a CNI plug-in or stand-alone](https://www.weave.works/) <br>
+CRI - [Container Runtime Interfaces](https://github.com/kubernetes/cri-api/blob/c75ef5b/pkg/apis/runtime/v1/api.proto) <br>
+containerd - [This section contains the necessary steps to use containerd as CRI runtime](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#containerd)
+CRI-O - [](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#cri-o) <br>
+Docker Engine - [Docker Engine is the container runtime that started it all. Formerly known just as Docker, this container runtime is available in various forms](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker) <br>
+Mirantis Container Runtime - [Mirantis Container Runtime (MCR) is a commercially available container runtime that was formerly known as Docker Enterprise Edition](https://docs.mirantis.com/mcr/20.10/overview.html) <br>
+
+## Kubernetes Package Manageent Tools
+
+Helm - [The package manager for Kubernetes](https://helm.sh/) <br>
 
 ## Testing Tools
 
@@ -194,7 +219,6 @@ Layer5 - [Layer5, the service mesh company, representing every service mesh](htt
 Gloo Mesh - [The Service Mesh Orchestration Platform](https://github.com/solo-io/gloo-mesh)<br>
 APISIX [Apache APISIX is a dynamic, real-time, high-performance API gateway.](https://github.com/apache/apisix)
 
-
 ## Observability
 
 Kubespy - [Tools for observing Kubernetes resources in real time](https://github.com/pulumi/kubespy) <br>
@@ -220,6 +244,7 @@ Kubeflow - [Machine Learning Toolkit for Kubernetes](https://github.com/kubeflow
 Volcano - [A Kubernetes Native Batch System](https://github.com/volcano-sh/volcano)<br>
 
 ## Compute Edge Tools
+
 KubeEdge - [Kubernetes Native Edge Computing Framework](https://github.com/kubeedge/kubeedge) <br>
 Kubeless - [Kubernetes Native Serverless Framework](https://github.com/kubeless/kubeless)<br>
 
@@ -241,7 +266,6 @@ TiKV - [Distributed transactional key-value database](https://github.com/tikv/ti
 velero - [Backup and migrate Kubernetes applications and their persistent volumes](https://github.com/vmware-tanzu/velero)<br>
 Vitess - [Vitess is a database clustering system for horizontal scaling of MySQL](https://github.com/vitessio/vitess)<br>
 kaDalu - [A lightweight Persistent storage solution for Kubernetes / OpenShift using GlusterFS in background](https://github.com/kadalu/kadalu)<br>
-
 
 ## Multiple Tools Repo
 
